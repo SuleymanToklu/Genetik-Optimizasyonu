@@ -27,4 +27,11 @@
 
 **Görselleştirme:** Nesiller boyunca uygunluk evrimini gösteren Matplotlib grafiği.
 
-##  Sonuçlar Algoritma, tüm kısıtlamaları karşılarken puanı en üst düzeye çıkaran en uygun çalışma sürelerine yakınsar. Ayrıntılı analiz not defterinde verilmiştir.
+## Sonuçların Yorumlanması ve Analiz
+
+Algoritma 100 jenerasyon sonunda **36.33** başarı puanına ulaşarak stabil hale gelmiştir.
+
+Elde edilen değerler (x₁ \approx 2.89$, x₂ \approx 9.10$) incelendiğinde:
+1.  **Kısıt Yönetimi:** Toplam süre $11.9992$ saat olarak bulunmuş, $12$ saat sınırına tam olarak dayanmıştır. Bu, algoritmanın elindeki kaynağı sonuna kadar kullanmaya çalıştığını gösterir.
+2.  **Stratejik Dağılım:** Amaç fonksiyonunda Fen dersinin getirisinin (5x₂) Matematikten (4x₁) yüksek olması sebebiyle, algoritma Matematik süresini optimum tepe noktası olan 4 saatin altında tutarak ($~2.89$), kalan süreyi Fen dersine aktarmayı tercih etmiştir.
+3.  **Başarı:** Algoritma, kısıtlar altında mümkün olan en yüksek skoru bulmak için "Matematik süresinden feragat etme" (trade-off) stratejisini başarıyla uygulamıştır.
