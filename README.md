@@ -9,29 +9,24 @@
 ## Problem Tespiti & Seneryo
 
 **Seneryo:** Bir öğrenci, sınav başarısını en üst düzeye çıkarmak için çalışma saatlerini planlamak istiyor.
-
 **Fonksiyon:** y = 4x₁ + 5x₂ - 0.5x₁² - 0.2x₂² (başarı skoru)
-
 **Değişkenler:**
   o x₁: Matematik etüt süresi (saat) → [0, 10]
   o x₂: Fen etüt süresi (saat) → [0, 10]
-
 **Kısıtlamalar:**
 1.  Toplam çalışma süresi (Matematik ve Fen dersleri) 12 saati geçemez: x₁ + x₂ ≤ 12
 2.  Fen Bilimleri dersi için minimum 2 saat ve üzeri çalışılmalı: x₂ ≥ 2
 
 ##  Özellikler
 **Genetik Algoritma Uygulaması:** Seçim, çaprazlama ve mutasyonu içeren özel uygulama.  
-
 **Kısıtlama Yönetimi:** Geçersiz çözümleri ele almak için kullanılan ceza yöntemi.  
-
 **Görselleştirme:** Nesiller boyunca uygunluk evrimini gösteren Matplotlib grafiği.
 
 ## Sonuçların Yorumlanması ve Analiz
 
 Algoritma 100 jenerasyon sonunda **36.33** başarı puanına ulaşarak stabil hale gelmiştir.
 
-Elde edilen değerler (x₁ \approx 2.89$, x₂ \approx 9.10$) incelendiğinde:
-1.  **Kısıt Yönetimi:** Toplam süre $11.9992$ saat olarak bulunmuş, $12$ saat sınırına tam olarak dayanmıştır. Bu, algoritmanın elindeki kaynağı sonuna kadar kullanmaya çalıştığını gösterir.
-2.  **Stratejik Dağılım:** Amaç fonksiyonunda Fen dersinin getirisinin (5x₂) Matematikten (4x₁) yüksek olması sebebiyle, algoritma Matematik süresini optimum tepe noktası olan 4 saatin altında tutarak ($~2.89$), kalan süreyi Fen dersine aktarmayı tercih etmiştir.
-3.  **Başarı:** Algoritma, kısıtlar altında mümkün olan en yüksek skoru bulmak için "Matematik süresinden feragat etme" (trade-off) stratejisini başarıyla uygulamıştır.
+Elde edilen değerler (Matematik Süresi (x₁): 2.8918 saat,  Fen Süresi (x₂): 9.1074 saat) incelendiğinde:
+1.  **Kısıt Yönetimi:** Toplam süre 11.9992 saat olarak bulunmuş, 12 saat sınırına tam olarak dayanmıştır. Bu, algoritmanın elindeki kaynağı sonuna kadar kullanmaya çalıştığını gösterir.
+2.  **Stratejik Dağılım:** Amaç fonksiyonunda Fen dersinin getirisinin (5x₂) Matematikten (4x₁) yüksek olması sebebiyle, algoritma Matematik süresini optimum tepe noktası olan 4 saatin altında tutarak (~2.89), kalan süreyi Fen dersine aktarmayı tercih etmiştir.
+3.  **Başarı:** Algoritma, kısıtlar altında mümkün olan en yüksek skoru bulmak için "Matematik süresinden feragat etme" stratejisini başarıyla uygulamıştır.
