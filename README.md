@@ -24,6 +24,8 @@
 
 ## Sonuçların Yorumlanması ve Analiz
 
+<img width="855" height="547" alt="sonuc" src="https://github.com/user-attachments/assets/31e6fcaa-e93d-4279-8890-b8f3e2d88e66" />
+
 Algoritma 100 jenerasyon sonunda **36.33** başarı puanına ulaşarak stabil hale gelmiştir.
 
 Elde edilen değerler (Matematik Süresi (x₁): 2.8918 saat,  Fen Süresi (x₂): 9.1074 saat) incelendiğinde:
