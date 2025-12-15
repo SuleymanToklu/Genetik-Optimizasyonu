@@ -27,11 +27,12 @@
 <img width="855" height="547" alt="sonuc" src="https://github.com/user-attachments/assets/31e6fcaa-e93d-4279-8890-b8f3e2d88e66" />
 
 
-Optimizasyon Sonucu
+### Optimizasyon Sonucu
 
-Matematik Süresi (x1) : 2.8918 saat
-Fen Süresi (x2)       : 9.1074 saat
-Toplam Süre           : 11.9992 saat
+Matematik Süresi (x1) : 2.8918 saat -
+Fen Süresi (x2)       : 9.1074 saat -
+Toplam Süre           : 11.9992 saat 
+
 Hesaplanan Başarı Puanı: 36.3340
 
 
